@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #ffffff;
+}
+
+.nav-bar {
+  background-color: #272643;
+  height: 85px;
+  padding: 25px 30px;
+  text-align: right;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  padding: 0 10px 0 10px;
+  font-size: 1.2rem;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 0;
+  padding: 0 0 0 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.nav-item:hover {
+  color: #bae8e8;
+  text-decoration: none;
+  text-align: left;
+  padding: 0 10px 0 10px;
+  font-size: 1.2rem;
+}
+
+.nav-logo:hover {
+  position: absolute;
+  left: 0;
+  padding: 0 0 0 30px;
+  color: #bae8e8;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 6.5% auto;
+  padding: 80px 0;
+  text-align: left;
+  height: 400px;
+  max-height: 350px;
+  width: 800px;
+  max-width: 600px;
+}
+
+.notfound-paragraph {
+  padding: 10px 0 20px 0;
+  font-size: 1.1rem;
+  color: #000;
+}
+.notfound-heading {
+  color: #000;
+}
+
+.fa-exclamation-triangle {
+  color: #2c698d;
+}
+
+.btn {
+  background-color: #fff;
+  border: 2px solid #2c698d;
+  border-radius: 20px;
+  color: #2c698d;
+  width: 40%;
+}
+.btn:hover {
+  background-color: #2c698d;
+  border: 2px solid #2c698d;
+  border-radius: 20px;
+  color: #fff;
+  width: 40%;
+}
